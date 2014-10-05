@@ -1,0 +1,26 @@
+<div class="table-container">
+    <h2>Select Teacher</h2>
+    <table class="table table-striped table-hover ">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone number</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="teacher in teachers" ng-click="showTeacher(teacher.Id)">
+                <td>{{teacher.FirstName}} {{teacher.LastName}}</td>
+                <td>{{teacher.Email}}</td>
+                <td>{{teacher.Phone}}</td>
+                <td>{{teacher.Title}}</td>
+            </tr>
+            <tr ng-if="drivers.length == 0">
+                <td colspan="3">
+                    <h1>No teachers registered !</h1>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

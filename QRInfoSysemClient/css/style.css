@@ -1,0 +1,82 @@
+.register-form{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home-container{
+    text-align: center;
+}
+
+
+.table-container{
+    margin:50px 150px;
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+table,td,th{
+    text-align:center
+}
+
+.teacher-register{
+    padding-right: 50px;
+}
+#mydate{
+    width:500px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+}
+
+.from, .to{
+    margin: 40px;
+}
+.from span, .to span{
+    margin-right: 10px;
+}
+.to{
+    margin-left: 8%;
+}
+.shedule-input{
+    display: inline-block;
+    width: 200px;
+}
+.form-control{
+    text-align: center;
+}
+.fc-unthemed .fc-today{
+    background: gray;
+}
+.left{
+    display: inline-block;
+    width: 49.8%;
+    border: 1px solid gray;
+    overflow:auto
+}
+.left{
+    float: left;
+    height: 500px;
+}
+.admin{
+    width:100%;
+    height: 100%;
+}
+.admin .teacher-register{
+    padding-right: 50px;
+}
+.admin .register-form{
+    margin:0px;
+    margin-left: 10%;
+    width: 80%;
+}
+.left-table{
+    min-width:500px ;
+    max-width: 5000px;
+}
+.down{
+    height: 550px;
+}

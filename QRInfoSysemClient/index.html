@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" ng-app="QRInfoApp">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/jquery-ui.css" />
+    <link rel="stylesheet" href="../css/toastr.min.css" />
+    <link href="lib/calendar/fullcalendar.css" rel="stylesheet"/>
+    <link href="lib/glDatePicker/styles/glDatePicker.default.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">QR Teacher Info</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <div ng-include="'views/partials/login.html'"></div>
+    </div>
+</div>
+<div ng-view></div>
+<hr class="col-lg-12"/>
+<footer class="text-center col-lg-12" ng-cloak>
+    <strong><a href="http://tusmail.tu-sofia.bg/">Email</a></strong>
+    <br>
+    <strong><a href="http://career.tu-sofia.bg/">Career</a></strong>
+    <br />
+</footer>
+<hr class="col-lg-12"/>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-route.js"></script>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-ui.js"></script>
+<script src="lib/jquery/jquery-timepicker.js"></script>
+<script src="lib/bootstrap/bootstrap.js"></script>
+<script src="lib/toastr/toastr.js"></script>
+<script src="lib/qrcode.js"></script>
+<script src="lib/glDatePicker/glDatePicker.js"></script>
+<script src="lib/calendar/fullcalendar-2.1.1/lib/moment.min.js"></script>
+<script src="lib/calendar/fullcalendar.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/LoginCtrl.js"></script>
+<script src="js/services/account/auth.js"></script>
+<script src="js/services/account/identity.js"></script>
+<script src="js/services/httpRequester.js"></script>
+<script src="js/services/notifier.js"></script>
+<script src="js/services/teacher/currentTeacher.js"></script>
+<script src="js/controllers/RegisterCtrl.js"></script>
+<script src="js/services/objectToQueryString.js"></script>
+<script src="js/controllers/HomeCtrl.js"></script>
+<script src="js/controllers/RegisterTeacherCtrl.js"></script>
+<script src="js/controllers/TeacherDetailsController.js"></script>
+<script src="js/services/teacher/teacherService.js"></script>
+<script src="js/controllers/SheduleController.js"></script>
+<script src="js/controllers/QRCodeCtrl.js "></script>
+<script src="js/controllers/TeacherCtrl.js"></script>
+</body>
+</html>
+
+

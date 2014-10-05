@@ -1,0 +1,10 @@
+C:\Users\Виктор\Desktop\QRInfoSystem\QRInfoSysemClient\QRInfoSysemClient\bin\QRInfoSysemClient.dll
+C:\Users\Виктор\Desktop\QRInfoSystem\QRInfoSysemClient\QRInfoSysemClient\bin\QRInfoSysemClient.pdb
+C:\Users\Виктор\Desktop\QRInfoSystem\QRInfoSysemClient\QRInfoSysemClient\obj\Debug\QRInfoSysemClient.csprojResolveAssemblyReference.cache
+C:\Users\Виктор\Desktop\QRInfoSystem\QRInfoSysemClient\QRInfoSysemClient\obj\Debug\QRInfoSysemClient.dll
+C:\Users\Виктор\Desktop\QRInfoSystem\QRInfoSysemClient\QRInfoSysemClient\obj\Debug\QRInfoSysemClient.pdb
+C:\Users\Виктор\Desktop\QRInfoSystemOld\QRInfoSysemClient\QRInfoSysemClient\bin\QRInfoSysemClient.dll
+C:\Users\Виктор\Desktop\QRInfoSystemOld\QRInfoSysemClient\QRInfoSysemClient\bin\QRInfoSysemClient.pdb
+C:\Users\Виктор\Desktop\QRInfoSystemOld\QRInfoSysemClient\QRInfoSysemClient\obj\Debug\QRInfoSysemClient.csprojResolveAssemblyReference.cache
+C:\Users\Виктор\Desktop\QRInfoSystemOld\QRInfoSysemClient\QRInfoSysemClient\obj\Debug\QRInfoSysemClient.dll
+C:\Users\Виктор\Desktop\QRInfoSystemOld\QRInfoSysemClient\QRInfoSysemClient\obj\Debug\QRInfoSysemClient.pdb

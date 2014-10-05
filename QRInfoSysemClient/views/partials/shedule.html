@@ -1,0 +1,24 @@
+<div class="col-lg-6">
+    <input type="text" class="form-control" placeholder="Select date "  id="mydate" gldp-id="mydate"/>
+</div>
+<div class="col-lg-6">
+    <form class="form-horizontal">
+        <div>
+            <div class="from">
+                <span>Room</span>
+                <input type="number" ng-model="shedule.Room" class="form-control shedule-input" placeholder="Room">
+            </div>
+            <div class="from">
+                <span>From</span>
+                <input type="text" class="form-control shedule-input" required id="from-hour-picker" placeholder="Select starting hour">
+            </div>
+            <div class="to">
+                <span>To</span>
+                <input type="text" id="to-hour-picker" required class="form-control shedule-input" placeholder="Select ending hour">
+            </div>
+            <div class="to">
+                <button ng-click="updateShedule(shedule)" type="submit"class="btn-primary btn">Update shedule</button>
+            </div>
+        </div>
+    </form>
+</div>
